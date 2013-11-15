@@ -1,0 +1,11 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("[+pagetitle+]");
+
+$APPLICATION->SetPageProperty("keywords", "[+description+]");
+$APPLICATION->SetPageProperty("description", "[+longtitle+]");
+?>
+
+[+content+]
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
